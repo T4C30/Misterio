@@ -1,0 +1,86 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+input, textarea, button {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+button {
+    background-color: #62b6cb;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #3582a6;
+}
+
+
+
+body{
+    color: white;
+    background-color: black;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ul li{
+    font-size: 20px;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background-color: rgba(0, 0, 0, 0.192)
+}
+
+h1, div p{
+    text-align: center;
+}
+
+.FOX{
+    width: 50px;
+    height: 50px;
+}
+
+.bab{
+    background-color: blue;
+    border: white solid 3px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 3px;
+
+}
+
+.bob{
+    background-color: blue;
+    border: white solid 3px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding: 3px;
+    
+}
+
+
