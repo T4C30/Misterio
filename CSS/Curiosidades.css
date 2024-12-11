@@ -53,8 +53,12 @@ h1, div p{
 }
 
 
-input{
-    display: flex;
+iframe{
+    align-content: center;
+}
+
+.Alfa{
+    display:inline-flex ;
     justify-content: end;
     align-self: end;
     align-content: end;
