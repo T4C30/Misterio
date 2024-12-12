@@ -1,75 +1,116 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 20px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+a:active {
+    color: yellow;
+    font-size: 22px;
+}
+
+
+h1, div p {
+    text-align: center;
+}
+
+.bab {
+    background-color: #1e90ff;
+    border: none;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.bab ul {
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+}
+
+.FOX {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+}
+
+
+.bob {
+    background-color: #1e90ff;
+    border: none;
+    padding: 10px 0;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.bob a {
+    color: #87cefa;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.bob a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.bob p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+
 table {
     width: 100%;
     border-collapse: collapse;
     margin: 2rem 0;
 }
+
 th, td {
     border: 1px solid #ddd;
     padding: 1rem;
     text-align: left;
 }
+
 th {
     background-color: #62b6cb;
     color: white;
 }
+
 tr:nth-child(even) {
+    color: black;
     background-color: #f9f9f9;
 }
+
 tr:hover {
     background-color: #e3f2fd;
-}
-
-
-body{
-    color: white;
-    background-color: black;
-}
-
-ul{
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-ul li{
-    font-size: 20px;
-    list-style-type: none;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
-a:hover{
-    background-color: rgba(0, 0, 0, 0.192)
-}
-
-h1, div p{
-    text-align: center;
-}
-
-.FOX{
-    width: 50px;
-    height: 50px;
-}
-
-.bab{
-    background-color: blue;
-    border: white solid 3px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    padding: 3px;
-
-}
-
-.bob{
-    background-color: blue;
-    border: white solid 3px;
-    border-bottom: none;
-    border-left: none;
-    border-right: none;
-    padding: 3px;
-    
 }
