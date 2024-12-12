@@ -91,12 +91,6 @@ iframe{
     align-content: center;
 }
 
-.Alfa{
-    display:inline-flex ;
-    justify-content: end;
-    align-self: end;
-    align-content: end;
-}
 .destacado {
     display: flex;
     flex-wrap: wrap;
